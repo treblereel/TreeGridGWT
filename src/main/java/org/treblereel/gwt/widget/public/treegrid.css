@@ -1,0 +1,59 @@
+.treeGrid {
+	border-top: 1px solid #535353;
+	border-left: 1px solid #535353;
+}
+
+.treeGrid tbody tr td {
+	line-height: 14px;
+}
+
+.treeGrid thead{
+	display: table-header-group;
+}
+
+.treeGrid thead tr th {
+	background: url("cellbackground.png") repeat-x scroll center
+		bottom #F9F9F9;
+	font-family: arial, helvetica, tahoma, sans-serif;
+	border-right: 1px solid #535353;
+	border-collapse: collapse;
+	line-height: 14px;
+}
+
+.treeGrid-ExpandableColumn {
+	padding-left: 2px !important;
+}
+
+.cellBorder tbody tr td {
+	border-collapse: collapse;
+	border-right: 1px solid #535353;
+	border-bottom: 1px solid #535353;
+}
+
+.treeGridHeaderBody tbody tr{
+	display: none;
+	line-height: 0px;
+	height: 0px;
+}
+
+.treeGridHeaderBody thead th{
+	border-bottom: 1px solid #6F7277;
+	border-collapse: collapse;
+	font-family: Tahoma,Arial,Verdana,sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-shadow: none;
+	
+}
+
+.treeGridOffsetHeader th {
+	padding: 0px !important;
+}
+
+.treeGridOffsetHeader{
+	padding: 0px !important;
+}
+
+.treeGridOffsetHeader thead tr th {
+	padding: 0px !important;
+}
